@@ -34,3 +34,6 @@ git push -u origin master
 // check out
 git pull opheliacos
 
+
+git reset --hard HEAD
+git pull
