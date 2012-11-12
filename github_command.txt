@@ -18,8 +18,7 @@ git config --global user.name "이름"
 git config --global user.email "메일주소"
 git config --global --list  //확인
 
-
-
+// commit
 touch README.md
 git init
 git add README.md
@@ -30,3 +29,8 @@ Push an existing repository from the command line
 
 git remote add origin git@github.com:opheliacos/1.git
 git push -u origin master
+
+
+// check out
+git pull opheliacos
+
