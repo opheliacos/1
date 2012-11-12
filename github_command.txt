@@ -1,4 +1,24 @@
-Create a new repository on the command line
+Create key
+1. 기존 ssh key 백업
+config id_rsa id_rsa.pub known_hosts 등
+
+2. ssh key 생성
+ssh-keygen -t rsa -C "이메일"
+
+3. ssh key 확인
+id_rsa.pub
+
+4. github key 등록
+title = email
+key = id_rsa.pub
+
+
+git 정보 설정
+git config --global user.name "이름"
+git config --global user.email "메일주소"
+git config --global --list  //확인
+
+
 
 touch README.md
 git init
